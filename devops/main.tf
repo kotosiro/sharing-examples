@@ -20,6 +20,13 @@ resource "aws_s3_bucket_acl" "kotosiro_sharing_s3" {
   acl    = var.acl
 }
 
+resource "aws_s3_bucket_ownership_controls" "kotosiro_sharing_s3" {
+  bucket = aws_s3_bucket.kotosiro_sharing_s3.id
+  rule {
+    object_ownership = "BucketOwnerEnforced"
+  }
+}
+
 output "bucket" {
   value = aws_s3_bucket.kotosiro_sharing_s3.bucket
 }
