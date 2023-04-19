@@ -454,7 +454,7 @@
         },
         "delta-sharing": {
             "git": "https://github.com/ognis1205/delta-sharing.git",
-            "ref": "cb282f9bce377251595deb87317c2b71de0dec54",
+            "ref": "608e774f7c0eaa6151704667484ae45f8b6ace25",
             "subdirectory": "python"
         },
         "delta-spark": {
