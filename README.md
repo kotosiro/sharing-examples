@@ -12,5 +12,6 @@ Setup
   $ pyenv local 3.8.13
   $ pip install pipenv
   $ pipenv install -r requirements.txt
+  $ pipenv install 'git+https://github.com/ognis1205/delta-sharing.git@feature/add_predicate_hints_and_json_predicate_hints_parameters#egg=delta-sharing&subdirectory=python'
   $ pipenv shell
  ```
