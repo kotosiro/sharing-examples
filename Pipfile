@@ -11,6 +11,7 @@ boto3 = "==1.26.104"
 notebook = "==6.5.3"
 delta-sharing = {subdirectory = "python", ref = "feature/add_predicate_hints_and_json_predicate_hints_parameters", git = "https://github.com/ognis1205/delta-sharing.git"}
 deltalake = "==0.8.1"
+matplotlib = "==3.7.0"
 
 [dev-packages]
 
